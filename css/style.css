@@ -1,0 +1,872 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-bg {
+    background-color: #F85559;
+    border-radius: 100px;
+    margin-top: 40px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255);
+    flex-grow: 1;
+    text-align: center;
+    font-size: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+.cstm-search {
+    position: absolute;
+    right: 35px;
+    color: black;
+}
+
+.mbl-logo{
+    color: #FFF;
+text-align: right;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #000;
+    text-align: center;
+    opacity: 1;
+    background-color: #ffffff00;
+    border: 1px solid #ffffff00;
+}
+
+.banner-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-pera {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.banner-btn {
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #F85559;
+    border: 1px solid #F85559;
+    color: white;
+}
+
+.banner-section {
+    margin-top: 0px;
+    margin-bottom: 250px;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 130px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.category-text {
+    color: rgba(18, 18, 18, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.category-image {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.orange-image {
+    width: 75%;
+}
+
+.banner-slider {
+    position: relative;
+    bottom: -70px;
+}
+
+.category-section {
+    position: absolute;
+    background-color: white;
+    left: 20%;
+    border-radius: 8px;
+    box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
+}
+
+#time h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+
+.deal-text {
+    color: #121212;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal-pera {
+    color: rgba(18, 18, 18, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.timer-section {
+    margin-bottom: 50px;
+}
+
+.apple-image {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    margin-top: 35px
+}
+
+.orange-image {
+    width: 50%;
+    display: block;
+    margin: 35px auto;
+}
+
+.dragon-image {
+    width: 50%;
+    display: block;
+    margin: 35px auto;
+}
+
+.banana-image {
+    width: 50%;
+    display: block;
+    margin: 35px auto;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+    color: #121212;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.card-text {
+    color: rgba(18, 18, 18, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-section {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-section {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.cstm-star {
+    color: #F85559;
+}
+
+.cstm-star2 {
+    color: #FBC0A8;
+}
+
+.btn-primary {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+    color: #F85559;
+}
+
+.btn-primary:hover {
+    background-color: #F85559;
+    border: 1px solid #F85559;
+    color: white;
+}
+
+.btn-secondary {
+    color: #F85559;
+    background-color: white;
+    border-color: white;
+}
+
+.modal-text {
+    color: rgba(18, 18, 18, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.shop-btn {
+    background-color: #F85559;
+    border: 1px solid #F85559;
+    color: white;
+}
+
+.shop-btn-container {
+    text-align: center;
+    margin: 30px 0px;
+}
+.team-section-container{
+    margin: 50px 0px;
+}
+.team-section {
+    background: url(../images/team.png)no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 0px;
+}
+
+.team-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-pera {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cstm-team {
+    color: #F85559;
+    width: 24px;
+}
+
+.team-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.team-sub {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.line {
+    width: 35%;
+    color: black;
+    background-color: black;
+    text-align: start;
+    left: 38px;
+    margin-left: 0px
+}
+
+.choose-header {
+    color: #121212;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+}
+
+.choose-pera {
+    color: rgba(18, 18, 18, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.choose-header-right {
+    color: #121212;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: right;
+}
+
+.line-right {
+    width: 35%;
+    color: black;
+    background-color: black;
+    text-align: start;
+    left: 38px;
+    margin-right: 0px
+}
+
+.choose-pera-right {
+    color: rgba(18, 18, 18, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    justify-content: right;
+}
+.choose-title{
+    color: #121212;
+text-align: center;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 20px;
+}
+.choose-sub{
+    color: rgba(18, 18, 18, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+margin: 20px auto;
+width: 50%;
+}
+.choose-section-container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-section{
+    background-color: #000;
+    padding: 10px 0px;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.footer-section a{
+    color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.footer-nav ul{
+    display: flex;
+}
+.footer-nav ul li{
+    list-style: none;
+    color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 0px 20px;
+align-items: center;
+}
+
+.responsive-logo{
+    display: none;
+}
+.footer-nav-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.footer-nav-social ul{
+    display: flex;
+}
+
+.footer-nav-social ul li{
+    list-style: none;
+    color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 0px 20px;
+align-items: center;
+}
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px) { 
+
+    .responsive-logo{
+        display:block;
+    }
+
+    .mobile-timer{
+        display: none;
+    }
+
+    .responsive-logo a{
+        color: #FFF;
+text-align: right;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+
+    .mbl-logo{
+        display: none;
+    }
+
+
+    .nav-bg {
+        background-color: #F85559;
+        border-radius: 0px;
+        margin-top: 40px;
+    }
+    .cstm-search {
+        position: absolute;
+        
+        color: black;
+        
+        bottom: 26px;
+        
+        right: 115px;
+    }
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+        border-radius: 25px;
+        margin: 0 auto;
+    }
+
+     ul li{
+        text-align: center;
+    }
+    .banner-slider {
+        position: relative;
+         bottom: 0px;
+    }
+    .banner-section {
+        margin-top: 25px;
+        margin-bottom: 250px;
+    }
+    .responsive-category{
+        text-align: center;
+    margin: 0 auto;
+    display: block;
+    }
+
+    .category-section {
+        
+        left: 0%;
+       
+    }
+    .deal-section{
+        margin-top: 820px
+    }
+    #time h1 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        
+    }
+    .choose-sub {
+        color: rgba(18, 18, 18, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        margin: 20px auto;
+        width: 100%;
+    }
+    .choose-header {
+        color: #121212;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+    .line {
+        width: 35%;
+        color: black;
+        background-color: black;
+        text-align: start;
+        left: 38px;
+        margin-left: auto;
+    }
+    .choose-header-right {
+        color: #121212;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+    .line-right {
+        width: 35%;
+        color: black;
+        background-color: black;
+        text-align: start;
+        left: 38px;
+        margin-right: auto;
+    }
+    .footer-section a {
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .footer-nav ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer-nav ul li {
+        list-style: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 10px 20px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 770px) { 
+    
+    .responsive-logo{
+        display:block;
+    }
+    .responsive-logo a{
+        color: #FFF;
+text-align: right;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+
+    .mbl-logo{
+        display: none;
+    }
+    .nav-bg {
+        background-color: #F85559;
+        border-radius: 0px;
+        margin-top: 40px;
+    }
+    .cstm-search {
+        position: absolute;
+        
+        color: black;
+        
+        bottom: 26px;
+        
+        right: 290px;
+    }
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+        border-radius: 25px;
+        margin: 0;
+    }
+    ul li{
+        text-align: center;
+    }
+    .banner-heading {
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .banner-slider {
+        position: relative;
+        bottom: 0px;
+        top: 25px;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 0px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .category-section {
+        position: static; 
+        background-color: white;
+        left: 20%;
+        border-radius: 8px;
+        box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
+        margin-top: 40px;
+    }
+    .category-text {
+        color: rgba(18, 18, 18, 0.80);
+        text-align: left; 
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 5px; 
+    }
+    .banner-section {
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .deal-text {
+        color: #121212;
+        text-align: center;
+        font-family: Lato;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    #time h1 {
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+    }
+    .card-title {
+        margin-bottom: 0.75rem;
+        color: #121212;
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #bbbbbb;
+    }
+    .team-header {
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .choose-title {
+        color: #121212;
+        text-align: center;
+        font-family: Lato;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+    .choose-sub {
+        color: rgba(18, 18, 18, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        margin: 20px auto;
+        width: 100%;
+    }
+    .choose-header {
+        color: #121212;
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+    }
+    .choose-pera {
+        color: rgba(18, 18, 18, 0.60);
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+    }
+    .choose-header-right {
+        color: #121212;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: right;
+    }
+    .choose-pera-right {
+        color: rgba(18, 18, 18, 0.60);
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: right;
+        justify-content: right;
+    }
+    .form-inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 771px) and (max-width: 991px) { 
+    .responsive-logo{
+        display:block;
+    }
+
+    .responsive-logo a{
+        color: #FFF;
+text-align: right;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+
+    .mbl-logo{
+        display: none;
+    }
+
+}
